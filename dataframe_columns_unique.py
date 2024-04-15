@@ -1,4 +1,4 @@
-from pandas.api.dtype import is_numeric_dtype
+from pandas.api.types import is_numeric_dtype
 def column_stat(df):
   col_stat ={}
   for col in df.columns:
